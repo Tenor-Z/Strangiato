@@ -12,3 +12,8 @@ The presence of the infection can be identified by an increase in the file size 
 Additionally, Strangiato enforces a few mechanisms to prevent itself from being removed easily. First, it disables Task Manager and the Registry Editor, limiting backup strategies and delaying the incident response process. Privileges are esculated at the very beginning of execution, though this could be suspicious to some users. For the best case scenario, the virus would have to be cleverly disguised in order to have a lasting impact. Strangiato will place a registry key that will allow it to be executed on the computer's startup, linked to a hidden copy of the file outside of the bounds of traditional users.
 
 # Payloads
+The virus contains several payloads, though some are more destructive than others.
+
+On September 29th of any year, the virus will spam various message boxes on the screen, similar to as seen in MEMZ. These boxes will continue to occur and cannot be closed via the Task Manager. The payload will continue for the entire day.
+
+If the date is the 18th of any month, however, the virus will overwrite the Master Boot Record (if applicable), rendering the device inoperable from bootup. If the boot disk is formatted via GPT, this simply will not work.
