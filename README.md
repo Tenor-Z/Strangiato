@@ -17,3 +17,5 @@ The virus contains several payloads, though some are more destructive than other
 On September 29th of any year, the virus will spam various message boxes on the screen, similar to as seen in MEMZ. These boxes will continue to occur and cannot be closed via the Task Manager. The payload will continue for the entire day.
 
 If the date is the 18th of any month, however, the virus will overwrite the Master Boot Record (if applicable), rendering the device inoperable from bootup. If the boot disk is formatted via GPT, this simply will not work.
+
+# Warning
