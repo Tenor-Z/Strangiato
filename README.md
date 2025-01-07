@@ -19,3 +19,4 @@ On September 29th of any year, the virus will spam various message boxes on the 
 If the date is the 18th of any month, however, the virus will overwrite the Master Boot Record (if applicable), rendering the device inoperable from bootup. If the boot disk is formatted via GPT, this simply will not work.
 
 # Warning
+This is strictly a proof-of-concept resource. I am not responsible for the stupidity of users who want to release this into the wild. For testing purposes, please use a controlled, virtualized environment (i.e., virtual machine) and ensure that you have working backups prepared.
